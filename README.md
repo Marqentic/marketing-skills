@@ -155,7 +155,7 @@ Install the skills with the quick-start command if your installed skills CLI sup
 
 Clients that support custom HTTP headers can use a scoped workspace API key as `Authorization: Bearer <your-workspace-key>`. Store the key in the client's private credential configuration. Do not commit it to MCP JSON files or put it in a URL, skill file or chat prompt. See [connection and availability](CONNECTING.md).
 
-This release uses the skills installer and manual MCP connection. It does not include Claude marketplace plugin manifests or a Gemini extension manifest. Manifold's plugin-install commands do not install MARqentic. For Claude Code configuration details, see the [official MCP documentation](https://code.claude.com/docs/en/mcp).
+This release uses the skills installer and manual MCP connection. It does not include Claude marketplace plugin manifests or a Gemini extension manifest. For Claude Code configuration details, see the [official MCP documentation](https://code.claude.com/docs/en/mcp).
 
 ## Ask it like this
 
@@ -282,12 +282,12 @@ Installing the skills does not grant permission to post, comment, message or man
 
 Re-run the installer to select the current published skills, or use its [documented update workflow](https://github.com/vercel-labs/skills). Skill updates do not replace your separate MCP authorization.
 
-Report bugs and request workflows through [GitHub issues](https://github.com/Marqentic/marketing-skills/issues). Include the client, skill, expected behavior and a redacted error; never include access tokens or workspace keys.
+## Contributing
 
-The canonical library and release templates live in the MARqentic application repository. This repository is generated from that source. Changes should be made at the source and exported, validated and reviewed before publication so they survive later releases.
+A release step builds this repository from MARqentic's application repository, so a pull request here would be overwritten by the next release. To report a problem, improve a skill or suggest a new one, [open an issue](https://github.com/Marqentic/marketing-skills/issues).
 
-## Attribution and license
+Include the client, skill, expected behavior and a redacted error when reporting a problem. Never include access tokens or workspace keys.
 
-Adapted from [Manifold marketing-skills](https://github.com/manifoldmcp/marketing-skills) under the MIT license. Original skill identifiers, source citations and research attribution are preserved. Findings credited to Manifold remain Manifold's findings; they were not re-measured by MARqentic. MARqentic is an independent adaptation.
+## License
 
-See [LICENSE](LICENSE), [NOTICE](NOTICE.md) and the pinned revision in [UPSTREAM.json](UPSTREAM.json).
+MIT. See [LICENSE](LICENSE).
