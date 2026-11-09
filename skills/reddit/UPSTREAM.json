@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/manifoldmcp/marketing-skills",
+  "revision": "c3cb4f857857e143b91787f6b5eb5a61cf447136",
+  "imported_at": "2026-10-26",
+  "license": "MIT",
+  "skill_count": 26,
+  "adaptation_status": "adapted_for_market_intel",
+  "adapted_at": "2026-10-26",
+  "adaptation": [
+    "Connection instructions point to the market-intel server (CONNECTING.md) instead of Manifold's hosted connector, sign-in and client docs.",
+    "Missing tools are reported as families not built yet on this server, not as tool groups switched off in Manifold's app.",
+    "'Using Manifold' sections are 'Using the tools'; their credit figures defer to the live dry_run quote.",
+    "Each skill states that 'we', 'our runs' and the field notes are Manifold's own measurements; field notes and measurement citations are unchanged.",
+    "Descriptions of tool behaviour refer to the tools, not to Manifold the product; skill names, including manifold-get-started, and anchors are kept so links and upstream diffs stay stable."
+  ],
+  "distribution": {
+    "repository": "https://github.com/Marqentic/marketing-skills",
+    "source_directory": ".claude/skills",
+    "skills_only": true,
+    "changes": [
+      "MARqentic connector branding replaces the former internal market-intel name.",
+      "Each installed skill includes its own connection guide, license and provenance.",
+      "Related-skill links use the published repository so selective installs do not contain broken sibling links.",
+      "Research findings, field notes and original skill identifiers retain their upstream attribution."
+    ]
+  }
+}
