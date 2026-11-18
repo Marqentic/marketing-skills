@@ -5,7 +5,7 @@
 This repository contains **26 marketing skills** and their supporting references. The skills provide research methods, dated evidence and workflows; the hosted MCP server supplies live data when you authorize a connection.
 
 ```text
-https://devshine-seo-mcp-e36n.vercel.app/mcp
+https://www.marqentic.com/mcp
 ```
 
 The server uses remote Streamable HTTP with browser OAuth or a scoped workspace API key. You do not need to run the MARqentic backend locally.
@@ -36,7 +36,7 @@ You need Node.js and npm compatible with the [skills installer](https://github.c
 For Claude Code, run this in your terminal:
 
 ```sh
-claude mcp add --transport http marqentic https://devshine-seo-mcp-e36n.vercel.app/mcp
+claude mcp add --transport http marqentic https://www.marqentic.com/mcp
 ```
 
 Then open Claude Code and run:
@@ -102,7 +102,7 @@ Install the skills with `npx skills add Marqentic/marketing-skills` wherever you
 ### ChatGPT
 
 1. In a ChatGPT account or workspace that permits custom MCP servers, choose **Add custom MCP server**. Your administrator may need to enable access.
-2. Name the connection **MARqentic** and enter `https://devshine-seo-mcp-e36n.vercel.app/mcp`.
+2. Name the connection **MARqentic** and enter `https://www.marqentic.com/mcp`.
 3. Choose **OAuth**, create the connection and complete MARqentic sign-in and workspace consent.
 4. Enable the connection for your conversation and ask it to list the available research categories before running paid calls.
 
@@ -113,7 +113,7 @@ This is a custom connection; this repository does not claim a published MARqenti
 In your terminal:
 
 ```sh
-codex mcp add marqentic --url https://devshine-seo-mcp-e36n.vercel.app/mcp
+codex mcp add marqentic --url https://www.marqentic.com/mcp
 codex mcp login marqentic
 ```
 
@@ -127,7 +127,7 @@ Merge this entry into `.cursor/mcp.json` in your project, or `~/.cursor/mcp.json
 {
   "mcpServers": {
     "marqentic": {
-      "url": "https://devshine-seo-mcp-e36n.vercel.app/mcp"
+      "url": "https://www.marqentic.com/mcp"
     }
   }
 }
@@ -140,7 +140,7 @@ Open Cursor's MCP settings, enable MARqentic and complete authorization. Install
 In your terminal:
 
 ```sh
-gemini mcp add --transport http marqentic https://devshine-seo-mcp-e36n.vercel.app/mcp
+gemini mcp add --transport http marqentic https://www.marqentic.com/mcp
 ```
 
 Inside Gemini CLI:
